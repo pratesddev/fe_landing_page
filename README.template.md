@@ -10,7 +10,8 @@
 
 ## 📋 Sobre o projeto
 
-Descreva o projeto, seu contexto e o problema que ele resolve.
+Este projeto apresenta uma landing page simples para treinamento em programação web utilizando HTML e CSS.
+O projeto foi desenvolvido em aulas do curso Front-End Completo da Danki-Code. As referências foram adaptadas para a marca "Ation"
 
 ### Objetivo
 
