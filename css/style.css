@@ -10,11 +10,17 @@ html, body {
 }
 
 .center {
-    width: 1280px;
+    width: 1200px;
     margin: 0 auto;
+    padding: 0 2%;
+}
+
+.clear {
+    clear: both;
 }
 
 .header {
+    min-width: 1200px;
     width: 100%;
     height: 60px;
     background-color: #212343;
@@ -27,6 +33,7 @@ html, body {
 
 .container-banner {
     width: 100%;
+    min-width: 1200px;
     height: 557px;
     background-image: url('../images/header_bg.png');
     background-size: cover;
@@ -41,11 +48,14 @@ html, body {
     padding: 10px;
     width: 400px;
     height: calc(100% + 30px);
-    background-color: white;
+    float: right;
     position: relative;
     top: -15px;
-    border: 8px solid #CCC;
-    float: right;
+    border-width: 12px;
+    border-color: rgba(120, 120, 120, 0.5);
+    border-style: solid;
+    background-color: white;
+    background-clip: padding-box;
 }
 
 .form h2 {
@@ -95,4 +105,91 @@ html, body {
     text-align: center;
 }
 
-prosseguir com a aula 03 (Projeto#1 - Sessões)
+.container-list {
+    padding: 30px;
+    margin-top: 100px;
+    float: left;
+    width: 519px;
+    height: 270px;
+    background-color: rgba(33, 35, 67, 0.7);
+}
+
+.container-list ul {
+    list-style-position: inside;
+}
+
+.container-list ul li {
+    margin-top: 18px;
+    color: white;
+}
+
+.container-2 {
+    min-width: 1200px;
+    padding: 40px 0;
+    background-color: #DDDDDD;
+    text-align: center;
+}
+
+.container-2 h2 {
+    font-weight: normal;
+}
+
+.container-2 p {
+    width: 698px;
+    display: inline-block;
+    text-align: justify;
+    margin: 15px 0;
+}
+
+.arrow {
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/arrow.png);
+    background-size: 100% 100%;
+    position: relative;
+    top: 60px;
+    margin-left: -20px;
+    left: 50%;
+}
+
+.section-1 {
+    padding: 90px 0;
+}
+
+.section-1 h2 {
+    text-align: center;
+    color: #462663;
+    font-weight: normal;
+}
+
+.container-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container-single {
+    float: left;
+    width: 33.333%;
+    padding: 30px;
+}
+
+.container-single p {
+    display: inline-block;
+    text-align: justify;
+    padding: 10px 25px;
+}
+
+.container-single img {
+    width: 70px;
+}
+
+.footer {
+    padding: 30px 0;
+    border-top: 4px solid #888888;
+    text-align: center;
+    color: #888;
+}
+
+.footer p {
+    margin-top: 8px;
+}
