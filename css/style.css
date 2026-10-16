@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 html, body {
@@ -37,6 +38,7 @@ html, body {
 }
 
 .form {
+    padding: 10px;
     width: 400px;
     height: calc(100% + 30px);
     background-color: white;
@@ -45,3 +47,52 @@ html, body {
     border: 8px solid #CCC;
     float: right;
 }
+
+.form h2 {
+    font-weight: normal;
+    color: #999999;
+    font-size: 21px;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+.input-container span, .form p {
+    display: inline-block;
+    width: 100%;
+    color: #BBBBBB;
+    font-size: 17px
+}
+
+.form p {
+    margin: 20px 0;
+}
+
+.input-container input[type=text] {
+    margin-top: 8px;
+    width: 344px;
+    height: 55px;
+    border: 1px solid #CCC;
+}
+
+.form input[type=submit] {
+    width: 280px;
+    height: 56px;
+    background-color: #363a6d;
+    color: white;
+    font-size: 25px;
+    border: 0;
+    border-bottom: 5px solid #4A5097;
+    cursor: pointer;
+}
+
+.form input[type=submit]:hover {
+    background-color: #323665;
+}
+
+.form .input-submit-container {
+    text-align: center;
+}
+
+prosseguir com a aula 03 (Projeto#1 - Sessões)
