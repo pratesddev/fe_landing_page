@@ -2,7 +2,7 @@
 
 > Página web simples para treino de conhecimentos básicos de HTML e CSS
 
-[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)]()
+[![Status](https://img.shields.io/badge/status-concluído-green)]()
 [![Version](https://img.shields.io/badge/version-0.1.0-blue)]()
 [![License](https://img.shields.io/badge/license-MIT-blue)]()
 
